@@ -1,0 +1,17 @@
+{
+  "name": "app-webcomponent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server",
+    "lint": "standard",
+    "test": "standard && tap -J test/*.test.js"
+  },
+  "author": "Valerio Narcisi",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.1",
+    "standard": "^14.3.3"
+  }
+}
